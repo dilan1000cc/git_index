@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1><center><u> Tell me about YOU..! </u></center></h1><br><hr>
+    <form> <strong>
+        <ul type="square">
+           <li> <label for="name"> Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : </label>
+            <input type="text" id="name"></li> <br>
+            <li><label for="age"> Age &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+            <input type="number" min="0" max="80" id="age"></li><br>
+            <li><label for="address"> Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</label>
+            <textarea id="adress" cols="100" rows="1"></textarea></li><br>
+            <li><label for="gender"> Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</label>
+            <input type="radio" id="male" name="gender" value="male"> <label for="gender">Male</label>
+            <input type="radio" id="female" name="gender" value="female"> <label for="gender">female</label></li><br>
+            <li><label for="dob"> Date of Birth :</label>
+            <input type="date" id="dob"></li><br>
+        </ul>
+        <hr>
+        <!-- comment dguhaoweriyh -->
+        <ol type="A">
+            <li><label for="lang"> What languages do you speak :</label><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" id="english" value="english"><label for="english">English</label><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" id="tamil" value="tamil"><label for="tamil">Tamil</label><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" id="frech" value="french"><label for="french">French</label></li><br>
+            <li><label for="color"> What is your favourite color&nbsp; :</label>
+            <input type="color" id="color"></li><br>
+            <li><label for="food"> What is your favourite food&nbsp;&nbsp; :</label>
+            <input type="text" id="food" placeholder="ex: Pizza"></li><br>
+            <li><label for="telnumber"> What is your Phone number&nbsp; :</label>
+            <input type="tel" id="telnumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="ex: 076-785-2493"></li><br>
+            <li><label for="status">You are...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</label>
+            <select id="status" name="status">
+                <option value="single">Single</option>
+                <option value="married">Married</option>
+            </select></li>
+        </ol>
+            <br><hr><br>
+            <center>
+                <button type="reset">Reset</button>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="submit">Submit</button>
+            </center>
+            <br><br><hr>
+    </strong>
+    </form>
+</body>
+</html>
